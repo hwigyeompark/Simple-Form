@@ -6,7 +6,9 @@ class SimpeForm extends Component{
     state = {
         msg: ''
     };
-    
+    onClick = () =>{
+        this.setState({msg : new Date().toString()})
+    };
 
     render(){
         return(
