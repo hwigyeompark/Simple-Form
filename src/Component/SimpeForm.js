@@ -17,6 +17,7 @@ class SimpeForm extends Component{
                 Phone <Input placeholder="phone"/>
                 Nickname <Input placeholder="nickname"/>
                 <Button title = "버튼" buttonClick={this.onClick}/>
+                <div>{this.state.msg}</div>
             </Fragment>
         )
     }
